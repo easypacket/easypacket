@@ -1,4 +1,23 @@
 <!DOCTYPE html>
+<script>
+    document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey) {
+            event.preventDefault();
+        }
+        if (event.keyCode == 123) {
+            event.preventDefault();
+        }
+    });
+</script>
+
+<script>
+     document.addEventListener('contextmenu', 
+
+     event => event.preventDefault() 
+
+     )
+</script>
+
 <html lang="en">
   <head>
     <title>Near Optimal Albatross</title>
@@ -80,7 +99,7 @@
             <div class="home-separator"></div>
             <div class="home-container4">
               <span class="home-text">
-                © 2023 EasySetup, All Rights Reserved.
+                © 2023 EasyPacket, All Rights Reserved.
               </span>
               <div class="home-icon-group"></div>
             </div>
